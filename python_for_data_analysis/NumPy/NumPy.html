@@ -11800,9 +11800,33 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> 
+
+<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+
+<span class="n">a</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[1]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[1, 2, 3]</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -11812,10 +11836,31 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="n">b</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[2]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([1, 2, 3])</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -11825,7 +11870,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11844,52 +11889,6 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[1, 2, 3]</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
 <pre>array([1, 2, 3, 4, 5, 6, 7, 8, 9])</pre>
 </div>
 
@@ -11901,7 +11900,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
@@ -11917,7 +11916,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -11943,7 +11942,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
@@ -11959,7 +11958,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[7]:</div>
+<div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -11976,7 +11975,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
@@ -11992,7 +11991,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -12019,7 +12018,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="p">)</span>
@@ -12035,7 +12034,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[9]:</div>
+<div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -12061,7 +12060,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">eye</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
@@ -12077,7 +12076,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -12105,7 +12104,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
@@ -12121,7 +12120,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[11]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -12155,7 +12154,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
@@ -12171,13 +12170,13 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[12]:</div>
+<div class="prompt output_prompt">Out[10]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([ 0.65511284,  0.13989139])</pre>
+<pre>array([ 0.09950408,  0.34058237])</pre>
 </div>
 
 </div>
@@ -12188,7 +12187,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
@@ -12204,19 +12203,19 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[13]:</div>
+<div class="prompt output_prompt">Out[11]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[[ 0.17730238,  0.0949157 ,  0.78499115,  0.38984114],
-        [ 0.97621367,  0.58412221,  0.36182271,  0.81934748],
-        [ 0.57024044,  0.22106029,  0.60203295,  0.05562824]],
+<pre>array([[[ 0.68282604,  0.65598576,  0.81996482,  0.07963194],
+        [ 0.81410601,  0.89702462,  0.08894526,  0.1307713 ],
+        [ 0.86223315,  0.31796219,  0.18792348,  0.1654565 ]],
 
-       [[ 0.23103561,  0.87051872,  0.62952171,  0.0597917 ],
-        [ 0.75766258,  0.74034135,  0.13089593,  0.55657907],
-        [ 0.40384534,  0.76685131,  0.19206323,  0.607362  ]]])</pre>
+       [[ 0.04674239,  0.45483823,  0.80281198,  0.91478186],
+        [ 0.83474728,  0.25597002,  0.73895168,  0.51091939],
+        [ 0.95043172,  0.66900036,  0.30389842,  0.32728317]]])</pre>
 </div>
 
 </div>
@@ -12239,7 +12238,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
@@ -12255,14 +12254,14 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[14]:</div>
+<div class="prompt output_prompt">Out[12]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([[ 0.39799936,  0.59389898, -2.23716852],
-       [-0.13668975,  0.48120318,  0.14194033]])</pre>
+<pre>array([[ 0.01894578, -1.69022417,  0.00993446],
+       [-0.30764603, -1.50879482,  1.41659491]])</pre>
 </div>
 
 </div>
@@ -12282,7 +12281,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span>
@@ -12298,13 +12297,13 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[15]:</div>
+<div class="prompt output_prompt">Out[13]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.8870666340323976</pre>
+<pre>0.6620273698371913</pre>
 </div>
 
 </div>
@@ -12324,7 +12323,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
@@ -12340,13 +12339,13 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[16]:</div>
+<div class="prompt output_prompt">Out[14]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>array([ 3, 30, 24,  8, 17, 17, 18, 30, 39,  3])</pre>
+<pre>array([15, 35,  8, 25, 45,  3, 46, 33, 13, 48])</pre>
 </div>
 
 </div>
@@ -12357,7 +12356,7 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">40</span><span class="p">)</span>
@@ -12373,13 +12372,13 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[17]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>5</pre>
+<pre>29</pre>
 </div>
 
 </div>
@@ -12398,13 +12397,13 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">zero</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">zero</span> <span class="p">,</span> <span class="s1">&#39;   &#39;</span> <span class="p">,</span><span class="s1">&#39;shape of a :&#39;</span> <span class="p">,</span> <span class="n">zero</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 <span class="n">zero</span> <span class="o">=</span> <span class="n">zero</span><span class="o">.</span><span class="n">reshape</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span><span class="mi">6</span><span class="p">])</span>
-<span class="n">prin</span>
+<span class="nb">print</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">zero</span><span class="p">)</span>
 </pre></div>
 
@@ -12440,13 +12439,61 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Basic-Operation">Basic Operation<a class="anchor-link" href="#Basic-Operation">&#182;</a></h2><h4 id="Element-wise-product-and-matrix-product">Element wise product and matrix product<a class="anchor-link" href="#Element-wise-product-and-matrix-product">&#182;</a></h4>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,],[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]])</span>
+<span class="n">number2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">]])</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;element wise product :</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">number</span> <span class="o">*</span> <span class="n">number2</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;matrix product :</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">number</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">number2</span><span class="p">))</span>     <span class="c1">## also can use : np.dot(number, number2)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>element wise product :
+ [[1 6]
+ [6 4]]
+matrix product :
+ [[ 5  5]
+ [11 13]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="min-max-argmin-argmax-mean">min max argmin argmax mean<a class="anchor-link" href="#min-max-argmin-argmax-mean">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
@@ -12472,12 +12519,70 @@ For example, the coordinates of a point in 3D space [1, 2, 1] is an array of ran
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[ 7 29 45 69 62 26 51 67 50 87]
-max is : 87
-index of max : 9
-min is : 7
-index of min : 0
-mean : 49.3
+<pre>[71 32 84 61 75 89 47 62 38 56]
+max is : 89
+index of max : 5
+min is : 32
+index of min : 1
+mean : 61.5
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Universal-function">Universal function<a class="anchor-link" href="#Universal-function">&#182;</a></h2><p>numpy also has some funtion for mathmatical operation like exp, log, sqrt, abs and etc .</p>
+<p>for find more function click <a href="https://docs.scipy.org/doc/numpy/reference/ufuncs.html">here</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;exp:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">number</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;sqrt:</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">number</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+exp:
+ [[  2.71828183e+00   7.38905610e+00   2.00855369e+01]
+ [  5.45981500e+01   1.48413159e+02   4.03428793e+02]
+ [  1.09663316e+03   2.98095799e+03   8.10308393e+03]]
+
+sqrt:
+ [[ 1.          1.41421356  1.73205081]
+ [ 2.          2.23606798  2.44948974]
+ [ 2.64575131  2.82842712  3.        ]]
 </pre>
 </div>
 </div>
@@ -12496,7 +12601,7 @@ mean : 49.3
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">numbers</span><span class="o">.</span><span class="n">dtype</span>
@@ -12512,7 +12617,7 @@ mean : 49.3
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[44]:</div>
+<div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -12549,7 +12654,7 @@ mean : 49.3
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
@@ -12574,7 +12679,7 @@ mean : 49.3
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>True 140658979663344 140658979663344
+<pre>True 140417983235296 140417983235296
 [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
 [[ 0  1  2  3  4]
  [ 5  6  7  8  9]
@@ -12593,8 +12698,9 @@ mean : 49.3
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>### Shallow copy
-#### Different array objects can share the same data. The view method creates a new array object that looks at the same data.</li>
+<li><p>### Shallow copy</p>
+<p>Different array objects can share the same data. The view method creates a new array object that looks at the same data.</p>
+</li>
 </ul>
 
 </div>
@@ -12602,13 +12708,12 @@ mean : 49.3
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[139]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
 <span class="n">number2</span> <span class="o">=</span> <span class="n">number</span><span class="o">.</span><span class="n">view</span><span class="p">()</span>
 <span class="nb">print</span> <span class="p">(</span><span class="n">number</span> <span class="ow">is</span> <span class="n">number2</span> <span class="p">,</span> <span class="nb">id</span><span class="p">(</span><span class="n">number</span><span class="p">),</span> <span class="nb">id</span><span class="p">(</span><span class="n">number2</span><span class="p">))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;check id of list number :&#39;</span><span class="p">,</span><span class="nb">id</span><span class="p">(</span><span class="n">number</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">id</span><span class="p">(</span><span class="n">number2</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">id</span><span class="p">(</span><span class="n">number</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="nb">id</span><span class="p">(</span><span class="n">number2</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
 </pre></div>
 
 </div>
@@ -12625,8 +12730,7 @@ mean : 49.3
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>False 140658979759088 140658979758848
-check id of list number : 140658979632784 140658979632784 True
+<pre>False 140417983234496 140417983235616
 </pre>
 </div>
 </div>
@@ -12637,7 +12741,7 @@ check id of list number : 140658979632784 140658979632784 True
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[140]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">number2</span><span class="o">.</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
@@ -12670,7 +12774,7 @@ number shape: (20,)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[141]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;befor:&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
@@ -12710,8 +12814,9 @@ after: [2222    1    2    3    4    5    6    7    8    9   10   11   12   13   
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>### Deep copy 
-#### The copy method makes a complete copy of the array and its data.</li>
+<li><p>### Deep copy</p>
+<p>The copy method makes a complete copy of the array and its data.</p>
+</li>
 </ul>
 
 </div>
@@ -12719,13 +12824,12 @@ after: [2222    1    2    3    4    5    6    7    8    9   10   11   12   13   
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[151]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">20</span><span class="p">)</span>
 <span class="n">number2</span> <span class="o">=</span> <span class="n">number</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 <span class="nb">print</span> <span class="p">(</span><span class="n">number</span> <span class="ow">is</span> <span class="n">number2</span> <span class="p">,</span> <span class="nb">id</span><span class="p">(</span><span class="n">number</span><span class="p">),</span> <span class="nb">id</span><span class="p">(</span><span class="n">number2</span><span class="p">))</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;check id of list number :&#39;</span><span class="p">,</span><span class="nb">id</span><span class="p">(</span><span class="n">number</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">id</span><span class="p">(</span><span class="n">number2</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">id</span><span class="p">(</span><span class="n">number</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="nb">id</span><span class="p">(</span><span class="n">number2</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
 </pre></div>
 
 </div>
@@ -12742,8 +12846,7 @@ after: [2222    1    2    3    4    5    6    7    8    9   10   11   12   13   
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>False 140658979761728 140658979761648
-check id of list number : 140658979633072 140658979633072 True
+<pre>False 140417983236576 140417983236896
 </pre>
 </div>
 </div>
@@ -12754,14 +12857,15 @@ check id of list number : 140658979633072 140658979633072 True
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[152]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">eprint</span><span class="p">(</span><span class="s1">&#39;befor:&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
-<span class="n">number2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2222</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;befor:&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+<span class="n">number2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="nb">print</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;after:&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">number2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;number2:&#39;</span><span class="p">,</span><span class="n">number2</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -12781,8 +12885,8 @@ check id of list number : 140658979633072 140658979633072 True
 <pre>befor: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
 
 after: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
-[2222    1    2    3    4    5    6    7    8    9   10   11   12   13   14
-   15   16   17   18   19]
+
+number2: [10  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
 </pre>
 </div>
 </div>
@@ -12795,50 +12899,197 @@ after: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="to-do">to do<a class="anchor-link" href="#to-do">&#182;</a></h1><h2 id="operation-broadcasting-linear_algebra-and-id-bug">operation broadcasting linear_algebra and id bug<a class="anchor-link" href="#operation-broadcasting-linear_algebra-and-id-bug">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Why-we-use-use-Numpy-?">Why we use use Numpy ?<a class="anchor-link" href="#Why-we-use-use-Numpy-?">&#182;</a></h3><h5 id="because-it's-so-fast">because it's so fast<a class="anchor-link" href="#because-it's-so-fast">&#182;</a></h5><p>see it</p>
+<h1 id="Broadcating">Broadcating<a class="anchor-link" href="#Broadcating">&#182;</a></h1><h6 id="One-of-important-concept-to-understand-numpy-is-Broadcasting">One of important concept to understand numpy is Broadcasting<a class="anchor-link" href="#One-of-important-concept-to-understand-numpy-is-Broadcasting">&#182;</a></h6><p>It's very useful for performancing mathmaica operation beetween arrays of different shape.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span>
+<span class="n">num</span> <span class="o">=</span> <span class="mi">2</span> 
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39; number =&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> number .* num =&#39;</span><span class="p">,</span><span class="n">number</span> <span class="o">*</span> <span class="n">num</span><span class="p">)</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre> number = [ 1  2  3  4  5  6  7  8  9 10]
+
+ number .* num = [ 2  4  6  8 10 12 14 16 18 20]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">number2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">number</span> <span class="o">*</span> <span class="n">number2</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[28]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[ 1,  4,  9],
+       [ 4, 10, 18],
+       [ 7, 16, 27]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;number =&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">number =&#39;</span><span class="p">,</span> <span class="n">number</span> <span class="o">+</span> <span class="mi">100</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>number = [1 2 3]
+
+number = [101 102 103]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">number</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">number2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;number: </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">number</span><span class="p">)</span>
+<span class="n">add</span> <span class="o">=</span> <span class="n">number</span> <span class="o">+</span> <span class="n">number2</span> 
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;number2: </span><span class="se">\n</span><span class="s1"> &#39;</span><span class="p">,</span> <span class="n">number2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;add: </span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">add</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>number: 
+ [[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+number2: 
+  [1 2 3]
+
+add: 
+ [[ 2  4  6]
+ [ 5  7  9]
+ [ 8 10 12]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="If-you-still-doubt-Why-we-use-Python-and-NumPy-see-it.-&#128521;">If you still doubt Why we use Python and NumPy see it. &#128521;<a class="anchor-link" href="#If-you-still-doubt-Why-we-use-Python-and-NumPy-see-it.-&#128521;">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">time</span> <span class="k">import</span> <span class="n">time</span>
+<span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">8000000</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)):</span>
-    <span class="n">c</span> <span class="o">+=</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
-<span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;output:&#39;</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
+    <span class="n">c</span> <span class="o">+=</span><span class="p">(</span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">])</span>
+          
+<span class="nb">print</span> <span class="p">(</span><span class="s1">&#39;output1:&#39;</span><span class="p">,</span> <span class="n">c</span><span class="p">)</span>
 <span class="n">tak</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;multiply 2 matrix with loop: &#39;</span><span class="p">,</span> <span class="n">tak</span> <span class="o">-</span> <span class="n">tic</span><span class="p">)</span>
 
 <span class="n">tic</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;output:&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">b</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;output2:&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">a</span><span class="p">))</span>
 <span class="n">tak</span> <span class="o">=</span> <span class="n">time</span><span class="p">()</span>
+
 
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;multiply 2 matrix with numpy func: &#39;</span><span class="p">,</span> <span class="n">tak</span> <span class="o">-</span> <span class="n">tic</span><span class="p">)</span>
 </pre></div>
@@ -12847,19 +13098,35 @@ after: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>output1: 2665562.66419
+multiply 2 matrix with loop:  5.04582667350769
+output2: [[ 2665562.6641903]]
+multiply 2 matrix with numpy func:  0.003988981246948242
+</pre>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="I-tried-to-write-essential-things-in-numpy-that-you-can-start-to-code-and-enjpy-it-but-there-are-many-function--that-i-don't-write-in-this-book-if-you-neet-more-informatino-click-here">I tried to write essential things in numpy that you can start to code and enjpy it but there are many function  that i don't write in this book if you neet more informatino click <a href="https://docs.scipy.org/doc/numpy-dev/reference/routines.html#routines">here</a><a class="anchor-link" href="#I-tried-to-write-essential-things-in-numpy-that-you-can-start-to-code-and-enjpy-it-but-there-are-many-function--that-i-don't-write-in-this-book-if-you-neet-more-informatino-click-here">&#182;</a></h3>
 </div>
 </div>
-</div>
-
 </div>
     </div>
   </div>
