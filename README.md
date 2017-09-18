@@ -22,7 +22,7 @@ This course is divided into 9 chapters. Each chapter material is in a [Jupyter N
 
 ## Question?
 
-[Open an issue](issues) or contact the authors by:
+[Open an issue](/issues) or contact the authors by:
 - [aomidi@acm.org](mailto:aomidi@acm.org) or
 - [ms.akhondzadeh@gmail.com](mailto:ms.akhondzadeh@gmail.com)
 
