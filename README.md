@@ -6,14 +6,26 @@
   - [Alireza Omidi](https://www.linkedin.com/in/aomidi)
   - [Mohammad Sadegh Akhondzadeh](https://www.linkedin.com/in/msadegh97)
 
-## Notebooks
+## Materials
 
-1. Introduction - [01-introduction.ipynb](docs/01-introduction.html)
-2. Supervised Learning: Regression - [02-regression.ipynb](docs/02-regression.html)
-3. Supervised Learning: Classification - [03-classification.ipynb](docs/03-classification.html)
-4. Supervised Learning: A bit more - [04-more-supervised.ipynb](docs/04-more-supervised.html)
-5. Model Validation, Feature Scaling & Outlier Detection - [05-validation-feature-scaling-outliers.ipynb](docs/05-validation-feature-scaling-outliers.html)
-6. Unsupervised Learning: Clustering - [06-clustering.ipynb](docs/06-Clustering.html)
-7. PCA & Feature Selection - [07-pca-feature-selection.ipynb](docs/07-pca-feature-selection.html)
-8. Text Mining - [08-text-mining.ipynb](docs/08-text-mining.html)
-9. Neural Networks & Deep Learning - [09-neural-networks-deep-learning.ipynb](docs/09-neural-networks-deep-learning.html)
+This course is divided into 9 chapters. Each chapter material is in a [Jupyter Notebook](https://jupyter.org):
+
+1. Introduction - [[Notebook]](01-introduction.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/01-introduction.ipynb)
+2. Supervised Learning: Regression - [[Notebook]](02-regression.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/02-regression.ipynb)
+3. Supervised Learning: Classification - [[Notebook]](03-classification.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/03-classification.ipynb)
+4. Supervised Learning: A bit more - [[Notebook]](04-more-supervised.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/04-more-supervised.ipynb)
+5. Model Validation, Feature Scaling & Outlier Detection - [[Notebook]](05-validation-feature-scaling-outliers.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/05-validation-feature-scaling-outliers.ipynb)
+6. Unsupervised Learning: Clustering - [[Notebook]](06-clustering.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/06-clustering.ipynb)
+7. PCA & Feature Selection - [[Notebook]](07-pca-feature-selection.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/07-pca-feature-selection.ipynb)
+8. Text Mining - [[Notebook]](08-text-mining.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/08-text-mining.ipynb)
+9. Neural Networks & Deep Learning - [[Notebook]](09-neural-networks-deep-learning.ipynb) [[HTML]](http://nbviewer.jupyter.org/github/msadegh97/machine-learning-course/blob/master/09-neural-networks-deep-learning.ipynb)
+
+## Question?
+
+[Open an issue](issues) or contact the authors by:
+- [aomidi@acm.org](mailto:aomidi@acm.org) or
+- [ms.akhondzadeh@gmail.com](mailto:ms.akhondzadeh@gmail.com)
+
+## License
+
+This course is licensed under [GPLv3](LICENSE).
