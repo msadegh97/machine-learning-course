@@ -4,7 +4,7 @@
 
 ## Authors:
   - [Alireza Omidi](https://www.linkedin.com/in/aomidi)
-  - [Mohammad Sadegh Akhondzadeh](https://www.linkedin.com/in/msadegh97)
+  - [Mohammad Sadegh Akhondzadeh](https://www.linkedin.com/in/msadegh)
 
 ## Materials
 
